@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Rhymes;
+    src: url("./assets/Rhymes.woff2");
+}
