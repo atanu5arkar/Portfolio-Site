@@ -3,6 +3,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 rhymes: ["Rhymes"],
+                neue: ["Neue"],
+                neuemd: ["NeueMd"]
             },
         },
     },

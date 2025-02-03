@@ -4,36 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Atanu Sarkar | Web Software </title>
+    <title> Atanu Sarkar | Web Engineering </title>
     <link rel="stylesheet" href="output.css" />
 </head>
 
-<body class="h-screen p-4 bg-gradient-to-tl from-white to-blue-100">
-    <nav class="flex justify-between *:uppercase *:tracking-wider px-6 py-4">
-        <a href="./" class="font-semibold"> Atanu Sarkar </a>
-        <a href="mailto:atanu_sarkar1@outlook.com" class="hover:text-gray-600"> Contact </a>
-    </nav>
+<body class="h-screen font-[neue]">
+    <header class="flex flex-col gap-y-4 *:font-[neuemd]">
+        <nav class="flex justify-between *:uppercase *:tracking-wider px-4 py-4">
+            <a href="./"> Atanu Sarkar </a>
+            <a href="mailto:atanu_sarkar1@outlook.com" class="hover:text-gray-600"> Contact </a>
+        </nav>
 
-    <main class="flex flex-col gap-y-10 my-10 border rounded-4xl border-blue-200 px-6 py-14 font-[rhymes] font-medium">
-        <p class="md:text-4xl text-3xl"> I am Atanu. </p>
+        <div class="flex gap-x-3 px-4 *:not-active:text-gray-400">
+            <a href="" class=""> Core CS </a>
+            <a href=""> Projects </a>
+            <a href="#about"> About </a>
+        </div>
+    </header>
 
-        <p class="md:text-3xl text-2xl">
-            Computer Science Engineer with a specialization in <span class="text-blue-600">Full Stack</span> Web Development.<br />
-            With 2 years of experience at a <a href="https://cs.code.in" target="_blank"
-                class="text-blue-400 hover:text-blue-600">CS Bootcamp</a>&mdash;I'm dedicated to crafting robust and
-            reliable web apps.
+    <section class="flex flex-wrap gap-5 *:shadow-md *:px-4 *:py-6">
+        <div class="">
+            <figure><img src="./assets/dsa.png" alt="data structure thumbnail"></figure>
+            <div>
+                <h1 class="font-semibold text-lg py-1">DSA</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore, repellat eius nobis sapiente
+                    omnis ea esse asperiores facere perspiciatis provident possimus amet, fugiat ut cum? Quidem eligendi
+                    libero quo.
+                </p>
+            </div>
+        </div>
+
+        <div class="">
+            <figure><img src="./assets/ipc.png" alt="node.js thumbnail"></figure>
+            <div>
+                <h1 class="font-semibold text-lg py-1">Multiprocessing</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore, repellat eius nobis sapiente
+                    omnis ea esse asperiores facere perspiciatis provident possimus amet, fugiat ut cum? Quidem eligendi
+                    libero quo.
+                </p>
+            </div>
+        </div>
+
+        <div class="">
+            <figure><img src="./assets/multithreading.png" alt="node.js thumbnail"></figure>
+            <div>
+                <h1 class="font-semibold text-lg py-1">Multithreading</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore, repellat eius nobis sapiente
+                    omnis ea esse asperiores facere perspiciatis provident possimus amet, fugiat ut cum? Quidem eligendi
+                    libero quo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="flex flex-col gap-y-5 mt-10 border-t px-3 py-5 font-[rhymes]">
+        <p class="text-2xl">
+            Atanu is a Computer Science Engineer specialized in Full Stack Web
+            Development. 2 years of experience at a <a href="https://cs.code.in" target="_blank"
+                class="text-blue-400 focus:text-blue-600">CS Bootcamp</a>, crafting compelling web apps.
         </p>
 
-        <p class="md:text-2xl text-xl">
+        <p class="text-xl">
             Interested in working together?<br />
             <a href="mailto:atanu_sarkar1@outlook.com"
-                class="text-blue-400 hover:underline underline-offset-4 hover:text-blue-600 transition">
+                class="text-blue-400 focus:underline underline-offset-4 focus:text-blue-600 transition">
                 Get in touch.
             </a>
         </p>
-    </main>
+    </section>
 
-    <footer class="flex justify-center md:justify-start gap-x-6 *:text-gray-600 *:hover:underline *:underline-offset-4 px-6">
+    <footer
+        class="flex justify-between px-3 py-4 pb-8 *:font-semibold *:tracking-wider *:hover:underline *:underline-offset-4">
         <a href="https://disciple.hashnode.dev" target="_blank"> BLOG </a>
         <a href="https://" target="_blank"> LINKEDIN </a>
         <a href="https://" target="_blank"> X </a>

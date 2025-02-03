@@ -4,3 +4,13 @@
     font-family: Rhymes;
     src: url("./assets/Rhymes.woff2");
 }
+
+@font-face {
+    font-family: Neue;
+    src: url("./assets/NeueMontreal.woff2");
+}
+
+@font-face {
+    font-family: NeueMd;
+    src: url("./assets/NeueMontreal-Md.woff2");
+}
